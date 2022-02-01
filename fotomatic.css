@@ -1,0 +1,232 @@
+body {
+    background-color: lightgray;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    height: 85px;
+    width: 100%;
+    top: 0px;
+    background-color: white;
+}
+
+.header h3 {
+    float: left;
+    font-size: 28px;
+    font-family: Rubik;
+    color: #4A4A4A;
+    font-weight: light;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+
+.navbar {
+    height: 100%;
+    float: right;
+    margin: 0 auto;
+}
+
+.navbar a {
+    display: table;
+    height: 100%;
+    padding: 0 20px;
+    float: left;
+}
+
+.navbar a li {
+    display: table-cell;
+    list-style: none;
+    height: 100%;
+    padding-right: 30px;
+    vertical-align: middle;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+
+.navbar img {
+    height: 20px;
+    width: 20px;
+}
+
+.info-container {
+    background-image: url("/Users/ruby/Downloads/F1C1_start/resources/images/banner-landingpage.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-info {
+    background-color: #9DC20A;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    margin-left: 100px;
+}
+
+.main-info h2 {
+    font-family: Damion;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.main-info h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Rubik;
+    font-weight: regular;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.main-info p {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: regular;
+    line-height: 1.4;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.main-info button {
+    width: 555px;
+    height: 64px;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+    color: white;
+    font-family: Roboto;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 26px auto 56px 80px;
+}
+
+.feature-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 64px 38px 46px auto;
+}
+
+.feature {
+    height: 635px;
+    width: 50%;
+    margin: 32px 32px 40px 32px;
+}
+
+.feature img {
+    height: 416px;
+    width: 90%;
+    margin: auto;
+}
+
+.feature h2 {
+    color: #4A4A4A;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: bold;
+    line-height: 1.2;
+    align-self: center;
+}
+
+.feature p {
+    color: #4A4A4A;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: light;
+    line-height: 1.2;
+    align-self: center;
+}
+
+.filters {
+    background-color: #4A4A4A;
+    max-width: 100%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filters h2 {
+    color: white;
+    opacity: 100%;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 64px auto;
+}
+
+.filters p {
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: light;
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
+
+.filters img {
+    margin: 1%;
+    height: 25%;
+    width: 22%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 80px 0;
+    background-color: lightgray;
+}
+
+.quote h3 {
+    font-family: Palatino;
+    font-size: 30px;
+    line-height: 1.1;
+    color: #4A4A4A;
+    margin: auto;
+}
+
+.quote img {
+    height: 30px;
+    width: 80px;
+    margin-left: 35px;
+    float: right;
+}
+
+.footer {
+    height: 62px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #9B9B9B;
+    display: inline-block;
+}
+
+.footer h3 {
+    color: white;
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 12px;
+    float: left;
+    margin-left: 32px;
+}
+
+.footer h4 {
+    color: white;
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 12px;
+    float: right;
+    margin-right: 32px;
+}
